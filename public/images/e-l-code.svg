@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-Zeichenfläche_1">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="Zeichenfläche_1" data-name="Zeichenfläche – 1" clip-path="url(#clip-Zeichenfläche_1)">
+    <text id="_" data-name="&lt;/&gt;" transform="translate(-1.5 21)" font-size="22" font-family="Helvetica-Light, Helvetica" font-weight="300" letter-spacing="-0.05em"><tspan x="0" y="0">&lt;/&gt;</tspan></text>
+  </g>
+</svg>

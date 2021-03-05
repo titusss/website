@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="699" viewBox="0 0 1440 699">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_5" data-name="Rechteck 5" width="1440" height="699" transform="translate(0 7822)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.539" x2="0.656" y2="0.58" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="onion-rings" transform="translate(0 -7822)" clip-path="url(#clip-path)">
+    <rect id="Rechteck_1" data-name="Rechteck 1" width="1440" height="391" transform="translate(0 8132)" fill="url(#linear-gradient)"/>
+    <rect id="Rechteck_2" data-name="Rechteck 2" width="1440" height="422" transform="translate(0 8521)"/>
+    <g id="Gruppe_1" data-name="Gruppe 1" transform="translate(-273.031 5724.674) rotate(-0.974)" opacity="0.8">
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(6.941 1948) rotate(13)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="1171.058" cy="505.96" rx="1171.058" ry="505.96" stroke="none"/>
+        <ellipse cx="1171.058" cy="505.96" rx="1170.058" ry="504.96" fill="none"/>
+      </g>
+      <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(6.941 2056.42) rotate(13)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="1003.764" cy="433.68" rx="1003.764" ry="433.68" stroke="none"/>
+        <ellipse cx="1003.764" cy="433.68" rx="1002.764" ry="432.68" fill="none"/>
+      </g>
+      <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(6.941 2163.394) rotate(13)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="836.47" cy="361.4" rx="836.47" ry="361.4" stroke="none"/>
+        <ellipse cx="836.47" cy="361.4" rx="835.47" ry="360.4" fill="none"/>
+      </g>
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(6.941 2271.814) rotate(13)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="669.176" cy="289.12" rx="669.176" ry="289.12" stroke="none"/>
+        <ellipse cx="669.176" cy="289.12" rx="668.176" ry="288.12" fill="none"/>
+      </g>
+      <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(6.941 2380.234) rotate(13)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="501.882" cy="216.84" rx="501.882" ry="216.84" stroke="none"/>
+        <ellipse cx="501.882" cy="216.84" rx="500.882" ry="215.84" fill="none"/>
+      </g>
+      <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(6.941 2488.654) rotate(13)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="334.588" cy="144.56" rx="334.588" ry="144.56" stroke="none"/>
+        <ellipse cx="334.588" cy="144.56" rx="333.588" ry="143.56" fill="none"/>
+      </g>
+      <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(6.941 2595.628) rotate(13)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="167.294" cy="72.28" rx="167.294" ry="72.28" stroke="none"/>
+        <ellipse cx="167.294" cy="72.28" rx="166.294" ry="71.28" fill="none"/>
+      </g>
+      <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(6.941 2001.487) rotate(13)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="1087.411" cy="469.82" rx="1087.411" ry="469.82" stroke="none"/>
+        <ellipse cx="1087.411" cy="469.82" rx="1086.411" ry="468.82" fill="none"/>
+      </g>
+      <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(6.941 2109.907) rotate(13)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="920.117" cy="397.54" rx="920.117" ry="397.54" stroke="none"/>
+        <ellipse cx="920.117" cy="397.54" rx="919.117" ry="396.54" fill="none"/>
+      </g>
+      <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(6.941 2218.327) rotate(13)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="752.823" cy="325.26" rx="752.823" ry="325.26" stroke="none"/>
+        <ellipse cx="752.823" cy="325.26" rx="751.823" ry="324.26" fill="none"/>
+      </g>
+      <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(6.941 2325.302) rotate(13)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="585.529" cy="252.98" rx="585.529" ry="252.98" stroke="none"/>
+        <ellipse cx="585.529" cy="252.98" rx="584.529" ry="251.98" fill="none"/>
+      </g>
+      <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(6.941 2433.721) rotate(13)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="418.235" cy="180.7" rx="418.235" ry="180.7" stroke="none"/>
+        <ellipse cx="418.235" cy="180.7" rx="417.235" ry="179.7" fill="none"/>
+      </g>
+      <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(6.941 2542.141) rotate(13)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="250.941" cy="108.42" rx="250.941" ry="108.42" stroke="none"/>
+        <ellipse cx="250.941" cy="108.42" rx="249.941" ry="107.42" fill="none"/>
+      </g>
+      <g id="Ellipse_14" data-name="Ellipse 14" transform="translate(6.941 2650.561) rotate(13)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="83.647" cy="36.14" rx="83.647" ry="36.14" stroke="none"/>
+        <ellipse cx="83.647" cy="36.14" rx="82.647" ry="35.14" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rechteck_3" data-name="Rechteck 3" width="1440" height="408" transform="translate(0 8167)" fill="url(#linear-gradient)"/>
+    <rect id="Rechteck_4" data-name="Rechteck 4" width="1113" height="723" transform="translate(0 7822)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>
