@@ -77,15 +77,15 @@ var toggleGreenhouse = false;
 extendedGreenhouse.style.transform = "translate(0px, -"+styleGreenhouseExtendedWrapper.height+")";
 
 
-var viewProjects = [document.getElementById("v-p-artificial"), document.getElementById("v-p-mdmadbm"), document.getElementById("v-p-supervisor"), document.getElementById("v-p-tinad"), document.getElementById("v-p-greenhouse"), document.getElementById("v-p-halleyscomet")];
-var viewProjectTexts = [document.getElementById("v-p-text-artificial"), document.getElementById("v-p-text-mdmadbm"), document.getElementById("v-p-text-supervisor"), document.getElementById("v-p-text-tinad"), document.getElementById("v-p-text-greenhouse"), document.getElementById("v-p-text-halleyscomet")];
+var viewProjects = [document.getElementById("v-p-artificial"), document.getElementById("v-p-supervisor"), document.getElementById("v-p-mdmadbm"), document.getElementById("v-p-tinad"), document.getElementById("v-p-greenhouse"), document.getElementById("v-p-halleyscomet")];
+var viewProjectTexts = [document.getElementById("v-p-text-artificial"), document.getElementById("v-p-text-supervisor"), document.getElementById("v-p-text-mdmadbm"), document.getElementById("v-p-text-tinad"), document.getElementById("v-p-text-greenhouse"), document.getElementById("v-p-text-halleyscomet")];
 
-var summaryTexts = [document.getElementById("sum-text-artificial"), document.getElementById("sum-text-mdmadbm"), document.getElementById("sum-text-supervisor"), document.getElementById("sum-text-tinad"), document.getElementById("sum-text-greenhouse"), document.getElementById("sum-text-halleyscomet")];
-var summaries = [document.getElementById("sum-artificial"), document.getElementById("sum-mdmadbm"), document.getElementById("sum-supervisor"), document.getElementById("sum-tinad"), document.getElementById("sum-greenhouse"), document.getElementById("sum-halleyscomet")];
-var arrows = [document.getElementById("sum-arrow-artificial"), document.getElementById("sum-arrow-mdmadbm"), document.getElementById("sum-arrow-supervisor"), document.getElementById("sum-arrow-tinad"), document.getElementById("sum-arrow-greenhouse"), document.getElementById("sum-arrow-halleyscomet")];
+var summaryTexts = [document.getElementById("sum-text-artificial"), document.getElementById("sum-text-supervisor"), document.getElementById("sum-text-mdmadbm"), document.getElementById("sum-text-tinad"), document.getElementById("sum-text-greenhouse"), document.getElementById("sum-text-halleyscomet")];
+var summaries = [document.getElementById("sum-artificial"), document.getElementById("sum-supervisor"), document.getElementById("sum-mdmadbm"), document.getElementById("sum-tinad"), document.getElementById("sum-greenhouse"), document.getElementById("sum-halleyscomet")];
+var arrows = [document.getElementById("sum-arrow-artificial"), document.getElementById("sum-arrow-supervisor"), document.getElementById("sum-arrow-mdmadbm"), document.getElementById("sum-arrow-tinad"), document.getElementById("sum-arrow-greenhouse"), document.getElementById("sum-arrow-halleyscomet")];
 
-var extensionProject = [document.getElementById("e-artificial"), document.getElementById("e-mdmadbm"), document.getElementById("e-supervisor"), document.getElementById("e-tinad"), document.getElementById("e-greenhouse"), document.getElementById("e-halleyscomet")];
-var closeSummaryButton = [document.getElementById("ext-close-artificial"), document.getElementById("ext-close-mdmadbm"), document.getElementById("ext-close-supervisor"), document.getElementById("ext-close-tinad"), document.getElementById("ext-close-greenhouse"), document.getElementById("ext-close-halleyscomet")];
+var extensionProject = [document.getElementById("e-artificial"), document.getElementById("e-supervisor"), document.getElementById("e-mdmadbm"), document.getElementById("e-tinad"), document.getElementById("e-greenhouse"), document.getElementById("e-halleyscomet")];
+var closeSummaryButton = [document.getElementById("ext-close-artificial"), document.getElementById("ext-close-supervisor"), document.getElementById("ext-close-mdmadbm"), document.getElementById("ext-close-tinad"), document.getElementById("ext-close-greenhouse"), document.getElementById("ext-close-halleyscomet")];
 
 //
 // Summary

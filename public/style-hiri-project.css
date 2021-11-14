@@ -22,7 +22,7 @@
     text-decoration: underline;
   }
   sup {
-    font-size: small;
+    font-size: 1vw;
     vertical-align: top;
   }
   body {
@@ -37,19 +37,24 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-.slide-1, .slide-2, .slide-4 {
-    padding: 0 60px;
+.slide-1, .slide-2, .slide-4, .slide-5, .slide-6 {
+    padding: 0 10%;
 }
 
 h1 {
-    font-size: 11.5vw;
-    line-height: 9vw;
+    font-size: 10vw;
+    line-height: 8vw;
     font-weight: 400;
     letter-spacing: -0.055em;
 }
 h2 {
     font-size: 10vw;
     letter-spacing: -0.055em;
+    font-weight: 800;
+}
+h3 {
+    font-size: 6vw;
+    letter-spacing: -0.05em;
     font-weight: 800;
 }
 .intro {
@@ -59,7 +64,7 @@ h2 {
     margin-bottom: 5vw;
 }
 .main-title {
-    margin-right: 80px;
+    margin-right: 3.5vw;
 }
 .subtitle {
     font-family: "SF Pro","Helvetica","SF Pro Icons","Helvetica Neue","Arial",sans-serif;
@@ -83,7 +88,7 @@ h2 {
 }
 .link-group {
     display: flex;
-    padding: 0 14vw 0 14vw;
+    padding: 0 6vw 0 6vw;
     margin-bottom: 3vw;
 }
 .link-group>h4 {
@@ -107,7 +112,10 @@ h2 {
     height: 30vw;
     bottom: 0;
 }
-.slide-4 {
+.slide-1 {
+    margin-top: 40px;
+}
+.slide-4, .slide-5 {
     background-color: #F4F4F4;
 }
 .features-title {
@@ -116,14 +124,56 @@ h2 {
 #features-emoji {
     font-size: 5vw;
 }
-.features-list {
-    font-weight: 200;
+.features-list, .h-d-subtitle {
+    font-weight: 300;
     font-family: "SF Pro","Helvetica","SF Pro Icons","Helvetica Neue","Arial",sans-serif;
-    font-size: 1.5vw;
-    line-height: 2.25vw;
+    font-size: 1.4vw;
+    line-height: 2.2vw;
     letter-spacing: 0.022rem;
 }
 .features {
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
+}
+.features-list-title {
+    font-size: 2vw;
+    margin: 40px 0 20px 0;
+}
+#filters-images {
+    max-width: 100%;
+    margin: auto;
+    transform: translate(1.5%, 0);
+}
+.slide-4 {
+    padding-bottom: 10vw;
+}
+.slide-5 {
+    text-align: center;
+    padding-bottom: 12vw;
+}
+#filters-subtitle, #heatmap-overview-subtitle {
+    padding: 2.5vw 25% 2.5vw 25%;
+}
+.slide-6 {
+    text-align: center;
+    padding-top: 12vw;
+    padding-bottom: 10vw;
+}
+.h-d-comparison {
+    display: flex;
+    margin-top: 1.5vw;
+}
+.h-d-images {
+    max-width: 100%;
+}
+.h-d-cell {
+    padding: 0 3vw;
+}
+.h-d-header {
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+.h-d-subtitle {
+    padding: 10px 20px;
 }
