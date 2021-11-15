@@ -37,7 +37,7 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-.slide-1, .slide-2, .slide-4, .slide-5, .slide-6 {
+.slide-1, .slide-2, .slide-4, .slide-5, .slide-6, .slide-7 {
     padding: 0 10%;
 }
 
@@ -176,4 +176,11 @@ h3 {
 
 .h-d-subtitle {
     padding: 10px 20px;
+}
+.slide-7 {
+    text-align: center;
+    padding-bottom: 10vw;
+}
+#architecture-images {
+    max-width: 90%;
 }

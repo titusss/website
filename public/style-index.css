@@ -217,6 +217,13 @@ img {
   filter: brightness(0.6);
 }
 
+#p-fig-micromix {
+  background-image: url(images/p-bg-micromix.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.8) blur(3px);
+}
+
 #p-fig-tinad {
   background-image: url(images/p-bg-tinad.png);
   background-repeat: no-repeat;
