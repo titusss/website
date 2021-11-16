@@ -77,22 +77,22 @@ var toggleGreenhouse = false;
 extendedGreenhouse.style.transform = "translate(0px, -"+styleGreenhouseExtendedWrapper.height+")";
 
 
-var viewProjects = [document.getElementById("v-p-artificial"), document.getElementById("v-p-supervisor"), document.getElementById("v-p-mdmadbm"), document.getElementById("v-p-tinad"), document.getElementById("v-p-greenhouse"), document.getElementById("v-p-halleyscomet")];
-var viewProjectTexts = [document.getElementById("v-p-text-artificial"), document.getElementById("v-p-text-supervisor"), document.getElementById("v-p-text-mdmadbm"), document.getElementById("v-p-text-tinad"), document.getElementById("v-p-text-greenhouse"), document.getElementById("v-p-text-halleyscomet")];
+var viewProjects = [document.getElementById("v-p-artificial"), document.getElementById("v-p-supervisor"), document.getElementById("v-p-micromix"), document.getElementById("v-p-mdmadbm"), document.getElementById("v-p-tinad"), document.getElementById("v-p-greenhouse"), document.getElementById("v-p-halleyscomet")];
+var viewProjectTexts = [document.getElementById("v-p-text-artificial"), document.getElementById("v-p-text-supervisor"), document.getElementById("v-p-text-micromix"), document.getElementById("v-p-text-mdmadbm"), document.getElementById("v-p-text-tinad"), document.getElementById("v-p-text-greenhouse"), document.getElementById("v-p-text-halleyscomet")];
 
-var summaryTexts = [document.getElementById("sum-text-artificial"), document.getElementById("sum-text-supervisor"), document.getElementById("sum-text-mdmadbm"), document.getElementById("sum-text-tinad"), document.getElementById("sum-text-greenhouse"), document.getElementById("sum-text-halleyscomet")];
-var summaries = [document.getElementById("sum-artificial"), document.getElementById("sum-supervisor"), document.getElementById("sum-mdmadbm"), document.getElementById("sum-tinad"), document.getElementById("sum-greenhouse"), document.getElementById("sum-halleyscomet")];
-var arrows = [document.getElementById("sum-arrow-artificial"), document.getElementById("sum-arrow-supervisor"), document.getElementById("sum-arrow-mdmadbm"), document.getElementById("sum-arrow-tinad"), document.getElementById("sum-arrow-greenhouse"), document.getElementById("sum-arrow-halleyscomet")];
+var summaryTexts = [document.getElementById("sum-text-artificial"), document.getElementById("sum-text-supervisor"), document.getElementById("sum-text-micromix"), document.getElementById("sum-text-mdmadbm"), document.getElementById("sum-text-tinad"), document.getElementById("sum-text-greenhouse"), document.getElementById("sum-text-halleyscomet")];
+var summaries = [document.getElementById("sum-artificial"), document.getElementById("sum-supervisor"), document.getElementById("sum-micromix"), document.getElementById("sum-mdmadbm"), document.getElementById("sum-tinad"), document.getElementById("sum-greenhouse"), document.getElementById("sum-halleyscomet")];
+var arrows = [document.getElementById("sum-arrow-artificial"), document.getElementById("sum-arrow-supervisor"), document.getElementById("sum-arrow-micromix"), document.getElementById("sum-arrow-mdmadbm"), document.getElementById("sum-arrow-tinad"), document.getElementById("sum-arrow-greenhouse"), document.getElementById("sum-arrow-halleyscomet")];
 
-var extensionProject = [document.getElementById("e-artificial"), document.getElementById("e-supervisor"), document.getElementById("e-mdmadbm"), document.getElementById("e-tinad"), document.getElementById("e-greenhouse"), document.getElementById("e-halleyscomet")];
-var closeSummaryButton = [document.getElementById("ext-close-artificial"), document.getElementById("ext-close-supervisor"), document.getElementById("ext-close-mdmadbm"), document.getElementById("ext-close-tinad"), document.getElementById("ext-close-greenhouse"), document.getElementById("ext-close-halleyscomet")];
+var extensionProject = [document.getElementById("e-artificial"), document.getElementById("e-supervisor"), document.getElementById("e-micromix"), document.getElementById("e-mdmadbm"), document.getElementById("e-tinad"), document.getElementById("e-greenhouse"), document.getElementById("e-halleyscomet")];
+var closeSummaryButton = [document.getElementById("ext-close-artificial"), document.getElementById("ext-close-supervisor"), document.getElementById("ext-close-micromix"), document.getElementById("ext-close-mdmadbm"), document.getElementById("ext-close-tinad"), document.getElementById("ext-close-greenhouse"), document.getElementById("ext-close-halleyscomet")];
 
 //
 // Summary
 //
 
 // Set behaviour of summary arrow and text on mouse hover
-console.log(summaries)
+// console.log(summaries)
 for (i=0; i < summaries.length; i++) {
 	summariesOver(summaries[i], arrows[i], summaryTexts[i]);
 	summariesOut(summaries[i], arrows[i], summaryTexts[i]);
@@ -269,3 +269,13 @@ projectSupervisor.onmouseout = function() {
 	projectFigureSupervisor.classList.remove("frameHover");
 }
 
+var projectMicromix = document.getElementById("h-micromix");
+var projectFigureMicromix = document.getElementById("p-fig-micromix");
+
+projectMicromix.onmouseover = function() {
+	projectFigureMicromix.classList.add("frameHover");
+}
+
+projectMicromix.onmouseout = function() {
+	projectFigureMicromix.classList.remove("frameHover");
+}

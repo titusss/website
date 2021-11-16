@@ -218,10 +218,12 @@ img {
 }
 
 #p-fig-micromix {
-  background-image: url(images/p-bg-micromix.png);
+  background-image: url(images/p-bg-micromix.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(0.8) blur(3px);
+  filter: brightness(0.6);
+  /* transform: scale(1); */
+  overflow: hidden;
 }
 
 #p-fig-tinad {
@@ -761,6 +763,20 @@ img {
   letter-spacing: -0.033em;
 }
 
+/******** Project MicroMix ********/
+
+#p-i-micromix {
+  color: #fff !important;
+}
+
+#h-micromix {
+  font-size: 120px;
+  margin-top: calc(var(--project-height) / 2.6);
+  letter-spacing: -0.033em;
+}
+
+/******** Project machines describing man as described by man ********/
+
 #project-wrapper-mdmadbm {
   height: inherit;
   padding-bottom: 5vw;
@@ -773,8 +789,6 @@ img {
   margin: 0;
   bottom: 0;
 }
-
-/******** Project machines describing man as described by man ********/
 
 #img-head-mdmadbm {
   width: 60vw;
@@ -1208,7 +1222,7 @@ img {
 }
 
 #p-supervisor {
-  z-index: 95;
+  z-index: 115;
 }
 
 #p-tinad {
@@ -1220,7 +1234,11 @@ img {
 }
 
 #p-artificial {
-  z-index: 115;
+  z-index: 125;
+}
+
+#p-micromix {
+  z-index: 120;
 }
 
 #p-halleyscomet {
