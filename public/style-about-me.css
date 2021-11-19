@@ -94,7 +94,7 @@ h6 {
     width: 60vw;
 }
 
-h5 {
+.title {
 	margin: 0 0 45px 0;
 }
 
@@ -206,6 +206,20 @@ h5 {
 }
 
 @media only screen and (max-width: 767px) {
-	h5 {
+	.title {
 		margin-bottom: 25px;
 	}
+}
+
+.projects-title, .projects-headline {
+	padding: 20px 0 4px 0;
+}
+
+.active-projects-list {
+	margin: 0 0 50px 20px;
+}
+
+.projects-tags {
+	line-height: 20px;
+	color: #727272;
+}

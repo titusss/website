@@ -44,7 +44,6 @@ window.onscroll = function() {
 	
 	//console.log(window.innerHeight);
 	if(linesFadedIn==false && linesTop<=window.innerHeight) {
-		console.log(linesTop);
 		document.getElementById("linesImage").classList.add("clippedIn");
 		linesFadedIn=true;
 	}
@@ -55,7 +54,6 @@ function fadeIn(sectionBlock) {
 	if(boundarySectionBlock <= window.innerHeight) {
 		sectionBlock.classList.remove("fade");
 		sections.splice(i,1);
-		console.log(sections);
 	}
 }
 

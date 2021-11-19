@@ -204,14 +204,14 @@ img {
 }
 
 #p-fig-greenhouse {
-  background-image: url(images/p-bg-greenhouse.png);
+  background-image: url(images/p-bg-greenhouse.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(0.6);
 }
 
 #p-fig-supervisor {
-  background-image: url(images/p-bg-supervisor.png);
+  background-image: url(images/p-bg-supervisor.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(0.6);
@@ -227,7 +227,7 @@ img {
 }
 
 #p-fig-tinad {
-  background-image: url(images/p-bg-tinad.png);
+  background-image: url(images/p-bg-tinad.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   filter: none;
@@ -242,7 +242,7 @@ img {
 }
 
 #p-fig-mdmadbm {
-  background-image: url(images/p-bg-mdmadbm.png);
+  background-image: url(images/p-bg-mdmadbm.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   filter: none;
@@ -1243,4 +1243,7 @@ img {
 
 #p-halleyscomet {
   background-color: #000;
+}
+.vimeo-cinescope {
+  padding-bottom: calc(100% / (2.35 / 1)) !important;
 }
