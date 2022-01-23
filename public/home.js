@@ -2,9 +2,9 @@ var textListLine1 = ["Autonomous robots that","Tangible interfaces for","Compute
 var textListLine2 = ["paint AI generated art","climate change data","novel artworks","for industrial robots","ways of work","short films","automobiles","hybrids for homeless","digital surveillance","school of the future"];
 
 
-const styleGreenhouseExtendedWrapper = getComputedStyle(document.querySelector('.extended-wrapper'));
+const styleGreenhouseExtendedWrapper = getComputedStyle(document.querySelector('.e-w-last'));
 
-var extendedGreenhouse = document.getElementById("e-greenhouse");
+var extendedGreenhouse = document.getElementById("e-studio");
 
 var projects = document.getElementById("project-parent").childNodes;
 var projectsList = [];
@@ -53,8 +53,6 @@ function loadInfo() {
 
 loadInfo();
 
-
-
 for (i=1; i < projects.length-1; i++) {
 	projectsList.push(projects[i]);
 	i++;
@@ -68,23 +66,23 @@ for (i=0;i<projectsList.length;i++) {
 var arrowTextSum = document.getElementById("sum-text");
 var arrowTextView = document.getElementById("v-p-text");
 
-var viewGreenhouse = document.getElementById("v-p-greenhouse");
-var sumGreenhouse = document.getElementById("sum-greenhouse");
+var viewGreenhouse = document.getElementById("v-p-studio");
+var sumGreenhouse = document.getElementById("sum-studio");
 
 var toggleGreenhouse = false;
 
 extendedGreenhouse.style.transform = "translate(0px, -"+styleGreenhouseExtendedWrapper.height+")";
 
 
-var viewProjects = [document.getElementById("v-p-artificial"), document.getElementById("v-p-supervisor"), document.getElementById("v-p-micromix"), document.getElementById("v-p-mdmadbm"), document.getElementById("v-p-tinad"), document.getElementById("v-p-greenhouse")];
-var viewProjectTexts = [document.getElementById("v-p-text-artificial"), document.getElementById("v-p-text-supervisor"), document.getElementById("v-p-text-micromix"), document.getElementById("v-p-text-mdmadbm"), document.getElementById("v-p-text-tinad"), document.getElementById("v-p-text-greenhouse")];
+var viewProjects = [document.getElementById("v-p-artificial"), document.getElementById("v-p-supervisor"), document.getElementById("v-p-micromix"), document.getElementById("v-p-mdmadbm"), document.getElementById("v-p-tinad"), document.getElementById("v-p-studio")];
+var viewProjectTexts = [document.getElementById("v-p-text-artificial"), document.getElementById("v-p-text-supervisor"), document.getElementById("v-p-text-micromix"), document.getElementById("v-p-text-mdmadbm"), document.getElementById("v-p-text-tinad"), document.getElementById("v-p-text-studio")];
 
-var summaryTexts = [document.getElementById("sum-text-artificial"), document.getElementById("sum-text-supervisor"), document.getElementById("sum-text-micromix"), document.getElementById("sum-text-mdmadbm"), document.getElementById("sum-text-tinad"), document.getElementById("sum-text-greenhouse")];
-var summaries = [document.getElementById("sum-artificial"), document.getElementById("sum-supervisor"), document.getElementById("sum-micromix"), document.getElementById("sum-mdmadbm"), document.getElementById("sum-tinad"), document.getElementById("sum-greenhouse")];
-var arrows = [document.getElementById("sum-arrow-artificial"), document.getElementById("sum-arrow-supervisor"), document.getElementById("sum-arrow-micromix"), document.getElementById("sum-arrow-mdmadbm"), document.getElementById("sum-arrow-tinad"), document.getElementById("sum-arrow-greenhouse")];
+var summaryTexts = [document.getElementById("sum-text-artificial"), document.getElementById("sum-text-supervisor"), document.getElementById("sum-text-micromix"), document.getElementById("sum-text-mdmadbm"), document.getElementById("sum-text-tinad"), document.getElementById("sum-text-studio")];
+var summaries = [document.getElementById("sum-artificial"), document.getElementById("sum-supervisor"), document.getElementById("sum-micromix"), document.getElementById("sum-mdmadbm"), document.getElementById("sum-tinad"), document.getElementById("sum-studio")];
+var arrows = [document.getElementById("sum-arrow-artificial"), document.getElementById("sum-arrow-supervisor"), document.getElementById("sum-arrow-micromix"), document.getElementById("sum-arrow-mdmadbm"), document.getElementById("sum-arrow-tinad"), document.getElementById("sum-arrow-studio")];
 
-var extensionProject = [document.getElementById("e-artificial"), document.getElementById("e-supervisor"), document.getElementById("e-micromix"), document.getElementById("e-mdmadbm"), document.getElementById("e-tinad"), document.getElementById("e-greenhouse")];
-var closeSummaryButton = [document.getElementById("ext-close-artificial"), document.getElementById("ext-close-supervisor"), document.getElementById("ext-close-micromix"), document.getElementById("ext-close-mdmadbm"), document.getElementById("ext-close-tinad"), document.getElementById("ext-close-greenhouse")];
+var extensionProject = [document.getElementById("e-artificial"), document.getElementById("e-supervisor"), document.getElementById("e-micromix"), document.getElementById("e-mdmadbm"), document.getElementById("e-tinad"), document.getElementById("e-studio")];
+var closeSummaryButton = [document.getElementById("ext-close-artificial"), document.getElementById("ext-close-supervisor"), document.getElementById("ext-close-micromix"), document.getElementById("ext-close-mdmadbm"), document.getElementById("ext-close-tinad"), document.getElementById("ext-close-studio")];
 
 //
 // Summary
@@ -246,8 +244,8 @@ projectTinad.onmouseout = function() {
 	projectFigureTinad.classList.remove("frameHover");
 }
 
-var projectGreenhouse = document.getElementById("h-greenhouse");
-var projectFigureGreenhouse = document.getElementById("p-fig-greenhouse");
+var projectGreenhouse = document.getElementById("h-studio");
+var projectFigureGreenhouse = document.getElementById("p-fig-studio");
 
 projectGreenhouse.onmouseover = function() {
 	projectFigureGreenhouse.classList.add("frameHover");

@@ -127,6 +127,7 @@ img {
   height: 90%;
 }
 
+.fff,
 #p-i-greenhouse,
 #p-i-tinad {
   color: #fff;
@@ -205,6 +206,13 @@ img {
 
 #p-fig-greenhouse {
   background-image: url(images/p-bg-greenhouse.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.6);
+}
+
+#p-fig-studio {
+  background-image: url(images/p-bg-studio.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(0.6);
@@ -769,7 +777,7 @@ img {
   color: #fff !important;
 }
 
-#h-micromix {
+#h-micromix, #h-studio {
   font-size: 120px;
   margin-top: calc(var(--project-height) / 2.6);
   letter-spacing: -0.033em;
@@ -1215,6 +1223,10 @@ img {
     justify-content: space-between;
     padding: 0 10% 0 10%;
   }
+}
+
+#p-studio {
+  z-index: 95;
 }
 
 #p-greenhouse {
