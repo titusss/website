@@ -1259,3 +1259,6 @@ img {
 .vimeo-cinescope {
   padding-bottom: calc(100% / (2.35 / 1)) !important;
 }
+#project-parent {
+  overflow: hidden;
+}

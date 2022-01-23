@@ -4,6 +4,7 @@ var textListLine2 = ["paint AI generated art","climate change data","novel artwo
 
 const styleGreenhouseExtendedWrapper = getComputedStyle(document.querySelector('.e-w-last'));
 
+var projectParent = document.getElementById("project-parent");
 var extendedGreenhouse = document.getElementById("e-studio");
 
 var projects = document.getElementById("project-parent").childNodes;
@@ -121,7 +122,7 @@ function openSummary(extensionProject, arrowProject, project) {
 			closeSummary(projectsList[i].childNodes[3], arrows[i], projectsList[i]);
 		}
 	}
-
+	projectParent.style.overflow = "auto";
 	extensionProject.style.transform = "translate(0px, 0px)";
 	extensionProject.classList.add("extVisible");
 	arrowProject.classList.remove("down");
